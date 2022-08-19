@@ -1,0 +1,50 @@
+body{
+    background-color: darkcyan;
+    background-image: url(/Test/back.jpg);
+     background-repeat: no-repeat;
+     background-size: 100vw 100vh;
+   
+}
+button{
+    cursor: pointer;
+    margin-top:100px;
+    background-color: rgb(80, 160, 80);
+    color: #FFF5E1;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    border-radius: 20px;
+    align-items: center;
+    margin: 10px;
+    border-style: none;
+    box-shadow: 0 5px #666;
+}
+#display{
+    display: flex;
+    justify-content: center;
+ 
+    min-height: 50vh;
+   
+    font-size: 12vh;
+    
+    color: #21E1E1;
+    
+}
+#reset_btn{
+    background-color: red;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+#reset_btn:active , #stop_btn:active ,#start_btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+ .display{
+     display: flex;
+    justify-content: center;
+ }
